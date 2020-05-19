@@ -1,8 +1,8 @@
-# Capstone
+# [Capstone]
 
 # This game is a 3rd person platformer where the player uses a grapple gun to scale the levels
 
-# Controls
+# [Controls]
 #   WASD - Walking directions
 #   Left Shift - Run
 #   Space - Jump
