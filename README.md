@@ -9,6 +9,7 @@
 #   Right Mouse Button - Aim
 #   Left Mouse Button - Shoot
 
+# [Contributions]
 # All scripts written by Brandon Landeros
 # Most assets created by Brandon Landeros*
 # UI designed by Brandon Landeros
