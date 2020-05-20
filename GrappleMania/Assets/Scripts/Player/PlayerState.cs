@@ -6,6 +6,7 @@ public class PlayerState : MonoBehaviour
 {
     public enum EMoveState
     {
+        IDLE,
         WALKING,
         RUNNING,
         JUMPING

@@ -260,7 +260,7 @@ PrefabInstance:
     - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
         type: 3}
@@ -270,7 +270,7 @@ PrefabInstance:
     - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
         type: 3}
@@ -280,9 +280,22 @@ PrefabInstance:
     - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
         type: 3}
       propertyPath: m_text
-      value: '5
-
-        20'
+      value: 5/20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600703, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600703, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000001476
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fb7a15da863fa64ea1cf8bff96bc548, type: 3}

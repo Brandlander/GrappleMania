@@ -28,11 +28,6 @@ public class AmmoText : MonoBehaviour
     {
         int amountInInventory = reloader.RoundsRemainingInInventory;
         int amountInClip = reloader.RoundsRemainingInClip;
-        ammoText.text = string.Format("{0}\n{1}", amountInClip, amountInInventory);
-    }
-
-    private void Update()
-    {
-
+        ammoText.text = string.Format("{0}/{1}", amountInClip, amountInInventory);
     }
 }

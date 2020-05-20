@@ -10,6 +10,12 @@ public class MenuScript : MonoBehaviour
     public GameObject LevelSelectUI;
     public GameObject ControlsScreen;
 
+    private void Awake()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void ChangeScene(string scenename)
     {
         SceneManager.LoadScene(scenename);

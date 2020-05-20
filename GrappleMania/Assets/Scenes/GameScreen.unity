@@ -2874,6 +2874,56 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_text
+      value: 5/10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600576, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600703, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173374412213600703, guid: 5fb7a15da863fa64ea1cf8bff96bc548,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000001476
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fb7a15da863fa64ea1cf8bff96bc548, type: 3}
 --- !u!1001 &3342104399036821048
@@ -2883,6 +2933,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1171379632, guid: 7647ec8e216bed348877acbcf1f912a8, type: 3}
+      propertyPath: delayBetween
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3342104397696333249, guid: 7647ec8e216bed348877acbcf1f912a8,
         type: 3}
       propertyPath: m_Name
