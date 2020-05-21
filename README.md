@@ -13,6 +13,8 @@
  Most assets created by Brandon Landeros*
  UI designed by Brandon Landeros
  Walk Forward and Walk Backward animations by Brandon Landeros
+ Artwork done by Kevin Landeros
+ Music done by Griffin
 
  *Character model was sourced from Mixamo
  *Most animations were sourced from Mixamo
