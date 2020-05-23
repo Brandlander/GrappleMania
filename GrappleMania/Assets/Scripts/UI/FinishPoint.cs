@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
-
     // On collision check if it was the player and finish the level if it is
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +14,9 @@ public class FinishPoint : MonoBehaviour
 
     public void LevelFinished()
     {
-        SceneManager.LoadScene("WinScreen");
+        if (SceneManager.GetActiveScene().name == "GameScreen")
+            SceneManager.LoadScene("Level2");
+        else if (SceneManager.GetActiveScene().name == "Level2")
+            SceneManager.LoadScene("WinScreen");
     }
 }
